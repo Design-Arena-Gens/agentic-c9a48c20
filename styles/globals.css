@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: #0b0f1a; color: #e6edf3; }
+main { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; }
+.container { width: 100%; max-width: 1280px; }
+.header { margin-bottom: 16px; }
+.card { background: #0f1629; border: 1px solid #1e2a44; border-radius: 12px; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.controls button, .controls select, .controls input { background: #16213a; color: #e6edf3; border: 1px solid #223153; border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+.controls button:hover { background: #1a2a4a; }
+.controls .danger { background: #3a1621; border-color: #532232; }
+.status { font-size: 12px; opacity: 0.85; }
+.mapWrap { position: relative; width: 100%; aspect-ratio: 16/9; border-radius: 10px; overflow: hidden; border: 1px solid #223153; }
+.mapWrap canvas { display: block; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #132038; border: 1px solid #223153; font-size: 12px; }
+.footer { margin-top: 12px; display: flex; gap: 10px; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+.link { color: #9cc4ff; text-decoration: none; }
+.link:hover { text-decoration: underline; }
